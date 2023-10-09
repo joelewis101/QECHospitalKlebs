@@ -26,7 +26,7 @@ Suggests:
     ggnewscale,
     ggplot2,
     ggpubr,
-    ggtree,
+    bioc::ggtree,
     knitr,
     lavaan,
     magick,
@@ -49,7 +49,7 @@ Suggests:
     stringr,
     tidyr,
     tidyverse,
-    treeio,
+    bioc::treeio,
     wesanderson
 VignetteBuilder: knitr
 URL: https://github.com/EvitaH/QECHospitalKlebs, https://evitah.github.io/QECHospitalKlebs/
@@ -60,6 +60,4 @@ LazyData: true
 Remotes: 
     katiejolly/nationalparkcolors,
     alexwailan/rpinecone,
-    bioc::ggtree,
-    bioc::treeio
 
